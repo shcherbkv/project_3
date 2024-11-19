@@ -1,0 +1,22 @@
+.btn {
+	background-color: #67a1a8;
+	font-size: 1.5vw;
+	padding: 0.5vw;
+	border-radius: 1vw;
+	margin-top: 2vw;
+	position: relative;
+	left: 85%;
+	border: 0.2vw solid #416b70;
+	position: relative;
+	top: 2%;
+	left: 95%;
+
+	&:hover {
+		cursor: pointer;
+		background-color: #238996;
+	}
+}
+
+.btnActive {
+	background-color: green;
+}

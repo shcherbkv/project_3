@@ -1,0 +1,14 @@
+.divInfo {
+	width: 65vw;
+	height: 6vw;
+	background-color: rgb(201, 201, 201);
+	border-radius: 1.5vw;
+	border: 0.2vw solid rgb(173, 173, 173);
+	display: flex;
+
+	.textInfo {
+		font-size: 2.5vw;
+		width: 40vw;
+		margin: auto;
+	}
+}

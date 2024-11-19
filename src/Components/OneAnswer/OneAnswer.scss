@@ -1,0 +1,19 @@
+.OneAnswerContainer {
+	height: 3vw;
+	font-size: 2vw;
+	padding-left: 5vw;
+	list-style: none;
+
+	&:hover {
+	cursor: pointer;
+	background-color: #d4d4d4;
+	}
+}
+
+.activeAnswer {
+	background-color: #b4b4b4;
+
+	&:hover {
+		background-color: #b4b4b4;
+	}
+}

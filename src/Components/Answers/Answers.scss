@@ -1,0 +1,14 @@
+.answersContainer {
+	position: relative;
+	top: 5%;
+	border: 0.1vw solid black;
+	
+
+	.OneAnswerContainer {
+	border-bottom: 0.1vw solid black;
+	}
+
+	.OneAnswerContainer:last-child {
+		border-bottom: 0;
+	}
+}

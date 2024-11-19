@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 6.5vh 12.5vw 18.5vh 12.5vw;
+}
+
+.mainContainer {
+	padding: 5vh 5vw 5vh 5vw;
+	border: 0.3vw solid black;
+	height: 71vh;
+
+}
+
+.finalContainer {
+	border: 0.3vw solid black;
+	height: 71vh;
+
+	display: grid;
+	grid-template-columns: 10% 20% 20% 20% 20% 10%;
+	grid-template-rows: 10% 45% 10% 10% 15% 10%;
+	grid-template-areas: "itog    itog    itog    itog    itog    itog   "
+						 ".       .       pic     pic     .       .      "
+						 ".       rang    rang    rang    rang    .      "
+						 "comment comment comment comment comment comment"
+						 ".       .       .       blockq  .       .      "
+						 ".       .       .       .       autor   autor  ";
+
+	h1 {
+		grid-area: itog;
+		font-size: 2vw;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.red {
+		background-color: red;
+	}
+
+	.ochre {
+		background-color: #bdb839;
+	}
+
+	.green {
+		background-color: green;
+	}
+
+	.yellow {
+		background-color: yellow;
+	}
+
+	div {
+		grid-area: pic;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	img {
+		
+		width: 18vw;
+		
+	}
+
+	h2 {
+		grid-area: rang;
+		font-size: 1.5vw;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	p {
+		grid-area: comment;
+		font-size: 1.5vw;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		padding-left: 2vw;
+		
+		strong {
+			padding-left: 0.5vw;
+		}
+	}
+
+	.autor {
+			grid-area: autor;
+			font-style: italic;
+			font-size: 1.3vw;
+			font-size: bold;
+		}
+
+	q {
+		grid-area: blockq;
+		font-size: 1vw;
+		font-style: italic;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		quotes: none;
+	}
+}
